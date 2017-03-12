@@ -1,0 +1,46 @@
+[29-Dec-2016 09:54:20 UTC] WordPress database error Unknown column 'wp_' in 'field list' for query SELECT wp_
+[29-Dec-2016 10:01:00 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/revslider/includes/framework/base-admin.class.php on line 430
+[29-Dec-2016 10:08:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home3/eosdike/public_html/livejobs.ca/wp-content/themes/jobcareer/backend/importer-hooks.php on line 73
+[29-Dec-2016 10:42:14 UTC] PHP Fatal error:  Call to undefined function submit_button() in /home3/eosdike/public_html/livejobs.ca/wp-admin/includes/file.php on line 1263
+[29-Dec-2016 16:22:43 UTC] PHP Warning:  array_merge(): Argument #1 is not an array in /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/revslider/includes/framework/base-admin.class.php on line 430
+[09-Jan-2017 09:31:49 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/wp-jobhunt.php on line 217
+[09-Jan-2017 09:31:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php on line 892
+[09-Jan-2017 09:31:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php on line 893
+[09-Jan-2017 09:31:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php on line 894
+[09-Jan-2017 09:34:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/wp-jobhunt.php on line 217
+[09-Jan-2017 09:34:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php on line 1174
+[09-Jan-2017 09:35:08 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/wp-jobhunt.php on line 217
+[09-Jan-2017 09:35:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php on line 892
+[09-Jan-2017 09:35:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php on line 893
+[09-Jan-2017 09:35:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/classes/class-save-post-options.php:1) in /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php on line 894
+[11-Jan-2017 06:55:59 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address: ' in /home3/eosdike/public_html/livejobs.ca/wp-includes/class-phpmailer.php:946
+Stack trace:
+#0 /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php(352): PHPMailer->setFrom('', 'Live Jobs  Cana...', false)
+#1 /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/templates/functions.php(122): wp_mail('ssejayantha@gma...', 'This is a test ...', 'Hi, this is the...', Array)
+#2 [internal function]: cs_send_smtp_mail(Array)
+#3 /home3/eosdike/public_html/livejobs.ca/wp-includes/plugin.php(524): call_user_func_array('cs_send_smtp_ma...', Array)
+#4 /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/settings/includes/plugin_options_functions.php(62): do_action('jobhunt_send_ma...', Array)
+#5 [internal function]: send_smtp_mail('')
+#6 /home3/eosdike/public_html/livejobs.ca/wp-includes/plugin.php(524): call_user_func_array('send_smtp_mail', Array)
+#7 /home3/eosdike/public_html/livejobs.ca/wp-admin/a in /home3/eosdike/public_html/livejobs.ca/wp-includes/class-phpmailer.php on line 946
+[17-Jan-2017 09:24:16 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (setFrom) ' in /home3/eosdike/public_html/livejobs.ca/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php(352): PHPMailer->setFrom('', 'Live Jobs  Cana...', false)
+#1 /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/templates/functions.php(122): wp_mail('ssejayantha@gma...', 'This is a test ...', 'Hi, this is the...', Array)
+#2 [internal function]: cs_send_smtp_mail(Array)
+#3 /home3/eosdike/public_html/livejobs.ca/wp-includes/plugin.php(524): call_user_func_array('cs_send_smtp_ma...', Array)
+#4 /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/settings/includes/plugin_options_functions.php(62): do_action('jobhunt_send_ma...', Array)
+#5 [internal function]: send_smtp_mail('')
+#6 /home3/eosdike/public_html/livejobs.ca/wp-includes/plugin.php(524): call_user_func_array('send_smtp_mail', Array)
+#7 /home3/eosdike/public_html/livejobs.c in /home3/eosdike/public_html/livejobs.ca/wp-includes/class-phpmailer.php on line 1023
+[17-Jan-2017 09:27:59 UTC] PHP Fatal error:  Uncaught exception 'phpmailerException' with message 'Invalid address:  (setFrom) ' in /home3/eosdike/public_html/livejobs.ca/wp-includes/class-phpmailer.php:1023
+Stack trace:
+#0 /home3/eosdike/public_html/livejobs.ca/wp-includes/pluggable.php(352): PHPMailer->setFrom('', 'Live Jobs  Cana...', false)
+#1 /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/templates/functions.php(122): wp_mail('ssejayantha@gma...', 'This is a test ...', 'Hi, this is the...', Array)
+#2 [internal function]: cs_send_smtp_mail(Array)
+#3 /home3/eosdike/public_html/livejobs.ca/wp-includes/plugin.php(524): call_user_func_array('cs_send_smtp_ma...', Array)
+#4 /home3/eosdike/public_html/livejobs.ca/wp-content/plugins/wp-jobhunt/admin/settings/includes/plugin_options_functions.php(62): do_action('jobhunt_send_ma...', Array)
+#5 [internal function]: send_smtp_mail('')
+#6 /home3/eosdike/public_html/livejobs.ca/wp-includes/plugin.php(524): call_user_func_array('send_smtp_mail', Array)
+#7 /home3/eosdike/public_html/livejobs.c in /home3/eosdike/public_html/livejobs.ca/wp-includes/class-phpmailer.php on line 1023
+[19-Jan-2017 11:30:25 UTC] PHP Fatal error:  Call to undefined function submit_button() in /home3/eosdike/public_html/livejobs.ca/wp-admin/includes/file.php on line 1263
